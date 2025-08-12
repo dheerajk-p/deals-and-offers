@@ -14,7 +14,7 @@ function Midweek() {
           />
         </div>
         <div className="flex flex-col gap-[20px] md:p-0 px-[15px] ">
-          <h1 className="md:max-w-2xl  max-w-lg md:text-5xl text-lg uppercase font-bold md:leading-[62.2px] leading-[25.2px] ">
+          <h1 className="font-['Inter'] md:max-w-2xl max-w-lg md:text-5xl text-lg uppercase font-bold md:leading-[62.2px] leading-[25.2px]">
             Midweek Calm – 20% Off All Bookings
           </h1>
           <p className="max-w-[803px] md:text-lg text-[14px] text-[#4D4D4D] font-[500] leading-[25.2px]">
@@ -42,7 +42,7 @@ function Midweek() {
               Sector 45, Gurugram, Haryana 122018, India
             </p>
           </div>
-          <button className=" md:text-[20px] text-[12px] font-[500] uppercase w-[192px] md:w-[266px] flex justify-center items-center gap-[10px]  md:h-[60px] h-[49px] md:py-[20px] py-[12px] md:px-[44px] px-[12px] border-[1px] bg-[#121212] group text-white rounded-[10px] cursor-pointer transition hover:opacity-75 hover:h-[62px] hover:py-[22px]  ">
+          <button className=" md:text-[20px] text-[12px] font-[500] uppercase w-[192px] md:w-[280px] flex justify-center items-center gap-[10px]  md:h-[60px] h-[49px] md:py-[20px] py-[12px] md:px-[44px] px-[12px] border-[1px] bg-[#121212] group text-white rounded-[10px] cursor-pointer transition hover:opacity-75 hover:h-[62px] hover:py-[22px]  ">
             Get this Deal
             <IoIosArrowForward
               size={20}
