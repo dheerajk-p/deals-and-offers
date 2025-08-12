@@ -50,7 +50,28 @@ function Midweek() {
         </div>
       </div>
 
-      <div className="w-full h-[1px] bg-[#E5E5E5] my-20" />
+      <div className="w-full h-[1px] bg-[#A2A2A2] my-20" />
+      <div className="flex flex-row gap-7"  >
+        <div>
+          <img 
+          src="public\ladiesnightimage.png"
+          className="w-[630px] h-[305.455px] rounded-[20px] object-cover" alt="ladiesnightimage" />
+        </div>
+        <div className="flex flex-col gap-[22px]">
+          <img
+          src="public\meera1stimage.png"
+          className="w-[305px] h-[305px] rounded-[20px] object-cover" alt="meera1stimage" />
+        </div>
+        <div claasName="flex flex-col gap-[22px]">
+          <img
+          src="public\meera2ndimage.png"
+          className="w-[305px] h-[305px] rounded-[20px] object-cover"
+          alt="meera2ndimage"
+          />
+          
+          
+        </div>
+      </div>
     </div>
   );
 }
